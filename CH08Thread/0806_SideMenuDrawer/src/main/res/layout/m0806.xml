@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Sliver"
+    android:orientation="vertical"
+    tools:context=".M0806">
+
+    <TextView
+        android:id="@+id/t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="385dp"
+        android:text="@string/t002"
+        android:textAlignment="center"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/b001"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="74dp"
+        android:text="@string/b002"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

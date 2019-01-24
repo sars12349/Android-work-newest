@@ -1,0 +1,60 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2C2C2"
+    android:orientation="vertical"
+    tools:context=".LayerListActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/m0709_r001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/m0709_r001"
+            android:textColor="@color/text_tab_selector" />
+
+        <RadioButton
+            android:id="@+id/m0709_r002"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/m0709_r002"
+            android:textColor="@color/text_tab_selector" />
+
+        <RadioButton
+            android:id="@+id/m0709_r003"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_tab_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/m0709_r003"
+            android:textColor="@color/text_tab_selector" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/m0709_t0201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_shadow_corners_rectangle"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/m0709_t0201"
+        android:textSize="18sp" />
+</LinearLayout>

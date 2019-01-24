@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0500_t001">坪數</string>
+    <string name="hint">請輸入數字</string>
+    <string name="m0500_b001">執行坪數換算</string>
+    <string name="m0500_t002">甲:</string>
+    <string name="zero">0</string>
+    <string name="m0500.t004">平方公尺:</string>
+    <string name="m0500.t006">公畝:</string>
+</resources>

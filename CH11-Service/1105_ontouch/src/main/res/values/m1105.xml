@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1105_t001">移動位置</string>
+    <string name="m1105_x1">滑動參數值x1=</string>
+    <string name="m1105_left">向左滑動</string>
+    <string name="m1105_right">向右滑動</string>
+    <string name="m1105_top">向上滑動</string>
+    <string name="m1105_bottom">向下滑動</string>
+    <string name="m1105_y1">滑動參數值y1=</string>
+    <string name="m1105_angle">角度=</string>
+    <string name="m1105_r">距離=</string>
+</resources>

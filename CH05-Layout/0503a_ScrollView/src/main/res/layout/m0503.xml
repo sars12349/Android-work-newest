@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:id="@+id/m0503_txt01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/Silver"
+        android:text="@string/m0503_txt01"
+        android:textColor="@color/Black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0503_btn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/Yellow"
+        android:text="@string/m0503_btn01"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/m0503_chb01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:checked="true"
+                android:text="@string/m0503_chb01" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb02" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb03" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb04" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb05" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb06" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb07" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb08" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb09" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb10" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb11" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb12" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb13" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb14" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb15" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb16" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb17" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb18" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb19" />
+
+            <CheckBox
+                android:id="@+id/m0503_chb20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Silver"
+                android:text="@string/m0503_chb20" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:text="@string/myname"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

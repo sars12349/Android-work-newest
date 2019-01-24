@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:padding="@dimen/Margins">
+
+    <Button
+        android:id="@+id/m0604_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m0604_b001"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m0604_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0604_b001"
+        android:layout_alignStart="@+id/m0604_b001"
+        android:layout_marginTop="9dp"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m0604_b002"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m0604_b003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0604_b002"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m0604_b003"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m0604_b004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0604_b003"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m0604_b004"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/myname"
+        android:textColor="@color/Blue"
+        android:textSize="30sp" />
+</RelativeLayout>

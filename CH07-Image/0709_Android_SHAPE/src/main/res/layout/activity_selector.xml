@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing"
+    tools:context=".SelectorActivity">
+
+    <EditText
+        android:id="@+id/m0709_e0601"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_edt_selector"
+        android:hint="@string/m0709_e0600" />
+
+    <EditText
+        android:id="@+id/m0709_e0602"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_edt_selector"
+        android:hint="@string/m0709_e0600" />
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="@string/btn_default"
+        android:textColor="@color/text_btn_selector" />
+
+    <Button
+        android:id="@+id/btn_disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:enabled="false"
+        android:text="@string/btn_disable"
+        android:textColor="@color/text_btn_selector" />
+
+    <Button
+        android:id="@+id/btn_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="@string/btn_selected"
+        android:textColor="@color/text_btn_selector" />
+
+    <Button
+        android:id="@+id/btn_activate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="@string/btn_activate"
+        android:textColor="@color/text_btn_selector" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/bg_list_item_selector" />
+</LinearLayout>

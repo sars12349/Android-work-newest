@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0503_chb01">音樂</string>
+    <string name="m0503_chb02">唱歌</string>
+    <string name="m0503_chb03">跳舞</string>
+    <string name="m0503_chb04">旅行</string>
+    <string name="m0503_chb05">閱讀</string>
+    <string name="m0503_chb06">寫作</string>
+    <string name="m0503_chb07">爬山</string>
+    <string name="m0503_chb08">游泳</string>
+    <string name="m0503_chb09">運動</string>
+    <string name="m0503_chb10">健身</string>
+    <string name="m0503_chb11">攝影</string>
+    <string name="m0503_chb12">繪畫</string>
+    <string name="m0503_chb13">美食</string>
+    <string name="m0503_chb14">勞作</string>
+    <string name="m0503_chb15">慢跑</string>
+    <string name="m0503_chb16">網遊</string>
+    <string name="m0503_chb17">露營</string>
+    <string name="m0503_chb18">攀岩</string>
+    <string name="m0503_chb19">釣魚</string>
+    <string name="m0503_chb20">跳傘</string>
+    <string name="m0503_btn01">確定</string>
+    <string name="m0503_txt01">喜好:</string>
+</resources>

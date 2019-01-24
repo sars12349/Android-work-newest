@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0600_b001">按鈕1</string>
+    <string name="m0600_b002">按鈕2</string>
+    <string name="m0600_b003">按鈕3</string>
+    <string name="m0600_b004">按鈕4</string>
+    <string name="m0600_b005">按鈕5</string>
+
+    <style name="m0600_b005">按鈕5</style>
+</resources>

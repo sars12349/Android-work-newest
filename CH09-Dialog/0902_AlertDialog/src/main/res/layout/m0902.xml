@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Sliver"
+    android:padding="@dimen/margin">
+
+    <Button
+        android:id="@+id/m0902_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/m0902_b001"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" /><!-- 取消英文單字自動變成大寫 -->
+
+    <Button
+        android:id="@+id/m0902_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0902_b001"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/m0902_b002"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0902_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0902_b002"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/m0902_t001"
+        android:textColor="@color/Water"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="@string/myname"
+        android:textColor="@color/darkorange"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

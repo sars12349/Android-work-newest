@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1104_tvtimer">現在時間:</string>
+    <string name="m1104_tvcounter">計數:</string>
+    <string name="m1104_btnstop">結束</string>
+    <string name="m1104_btnstart">開始</string>
+    <string name="m1104_title">顯示時間</string>
+    <string name="m1104_Content">Time</string>
+    <string name="m1104_ContentInfo">info訊息</string>
+    <string name="m1104_Ticker">有時間顯示囉!!</string>
+</resources>

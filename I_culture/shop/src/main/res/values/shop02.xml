@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shop02_btn01">店家位置</string>
+    <string name="shop02_btn02">產品介紹</string>
+    <string name="shop02_btn03">加入最愛</string>
+    <string name="shop02_m001">已加入最愛</string>
+    <string-array name="shop02_Array">
+        <item>牛奶泡芙之家</item>
+        <item>魚刺雞蛋糕</item>
+        <item>冰淇淋之家</item>
+    </string-array>
+</resources>

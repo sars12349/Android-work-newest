@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Sliver"
+    android:padding="@dimen/margin"
+    tools:context=".M0805">
+
+    <TextView
+        android:id="@+id/m0805_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0805_seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="@string/m0805_SeekBar"
+        android:textColor="@color/Navy"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/m0805_seekBar"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:max="100"
+        android:progress="25" />
+
+    <RatingBar
+        android:id="@+id/m0805_ratBar"
+        style="@android:style/Widget.Holo.Light.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0805_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp"
+        android:numStars="5"
+        android:rating="2.5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/m0805_Rat01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0805_ratBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/m0805_RatBar1"
+        android:textColor="@color/Navy"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0805_Rat02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0805_Rat01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/m0805_RatBar2"
+        android:textColor="@color/Navy"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m0805_b001"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/m0805_Rat02"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="47dp"
+        android:background="@color/Red"
+        android:text="@string/m0805_b001"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/m0805_b002"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/m0805_b001"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/m0805_b001"
+        android:background="@color/Yellow"
+        android:text="@string/m0805_b002"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/myname"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

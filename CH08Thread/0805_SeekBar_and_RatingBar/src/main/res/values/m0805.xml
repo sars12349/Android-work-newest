@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0805_SeekBar">SeekBar的Progress值：</string>
+    <string name="m0805_RatBar1">RatingBar的Rating值：</string>
+    <string name="m0805_RatBar2">RatingBar的Progress值：</string>
+    <string name="m0805_b001">執行SeekBar</string>
+    <string name="m0805_b002">執行RatingBar</string>
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing"
+    tools:context=".ShapeActivity">
+
+    <Button
+        android:id="@+id/m0709_b0701"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="toRectangle"
+        android:text="@string/m0709_b0701"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0709_b0702"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/m0709_b0702"
+        android:textAllCaps="false"
+        android:onClick="toOval"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0709_b0703"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/m0709_b0703"
+        android:textAllCaps="false"
+        android:onClick="toLine"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0709_b0704"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/m0709_b0704"
+        android:textAllCaps="false"
+        android:onClick="toRing"
+        android:textSize="18sp" />
+</LinearLayout>

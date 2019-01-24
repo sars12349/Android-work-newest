@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1302_t001">請利用選單播放背景音樂</string>
+    <string name="m1302_menu_about">關於這個程式...</string>
+    <string name="m1302_menu_music">背景音樂</string>
+    <string name="m1302_menu_playmusic">播放背景音樂</string>
+    <string name="m1302_menu_stopmusic">停止播放背景音樂</string>
+    <string name="m1302_menu_message">選單xml範例程式</string>
+    <string name="m1302_menu_ok">確定</string>
+</resources>

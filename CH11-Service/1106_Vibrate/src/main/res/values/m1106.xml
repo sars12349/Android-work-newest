@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1106_imb001">按此震動</string>
+    <string-array name="m1106_a001">
+        <item>選擇震動模式</item>
+        <item>長震動3秒</item>
+        <item>短震動0.1秒</item>
+        <item>停0.5秒之後震動1秒(三遍)</item>
+        <item>停0.5秒之後震動1秒(持續重覆)</item>
+        <item>停0.5秒之後震動1秒(重覆三次)</item>
+    </string-array>
+</resources>

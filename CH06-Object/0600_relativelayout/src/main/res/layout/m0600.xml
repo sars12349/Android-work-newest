@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Teal">
+
+    <Button
+        android:id="@+id/m0600_b001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/Yellow"
+        android:text="@string/m0600_b001"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0600_b002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0600_b001"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/m0600_b001"
+        android:background="@color/Yellow"
+        android:text="@string/m0600_b002"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0600_b003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/m0600_b001"
+        android:layout_toEndOf="@+id/m0600_b002"
+        android:background="@color/Yellow"
+        android:text="@string/m0600_b003"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0600_b004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0600_b003"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/m0600_b003"
+        android:background="@color/Yellow"
+        android:text="@string/m0600_b004"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/myname"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m0600_b005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m0600_b002"
+        android:layout_alignStart="@+id/m0600_b002"
+        android:text="@string/m0600_b005"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0600_b003"
+        android:layout_toEndOf="@+id/m0600_b002"
+        android:text="Button" />
+</RelativeLayout>

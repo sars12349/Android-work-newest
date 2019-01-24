@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1101_b001">註冊BroadcastReceiver1</string>
+    <string name="m1101_b002">註銷BroadcastReceiver1</string>
+    <string name="m1101_b003">傳送MY_BROADCAST1</string>
+    <string name="m1101_b004">傳送MY_BROADCAST2,無結果</string>
+    <string name="m1101_msg02">未註冊無法註銷</string>
+    <string name="m1101_msg03">Broadcast Receiver1範例程式</string>
+    <string name="m1101_msg04">Broadcast Receiver2範例程式</string>
+    <string name="m1101_msg05">BroadcastReceiver1收到</string>
+    <string name="m1101_msg06">發送的Broadcast訊息</string>
+    <string name="m1101_msg07">BroadcastReceiver2收到</string>
+</resources>

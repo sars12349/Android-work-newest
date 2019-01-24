@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back01"
+    android:orientation="vertical"
+    android:padding="@dimen/dp15">
+
+    <ScrollView
+        android:id="@+id/scr01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back01">
+
+        <LinearLayout
+            android:id="@+id/lay02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back01"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myname"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/sp18" />
+
+    <TextView
+        android:id="@+id/objT001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m05"
+        android:textAlignment="viewStart"
+        android:textColor="@color/Blue"
+        android:textSize="@dimen/sp18" />
+</LinearLayout>

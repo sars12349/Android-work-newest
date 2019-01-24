@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1303_t001">長按螢幕開啟選單</string>
+    <string name="m1303_menu_about">關於這個程式...</string>
+    <string name="m1303_menu_music">背景音樂</string>
+    <string name="m1303_menu_playmusic">播放背景音樂</string>
+    <string name="m1303_menu_stopmusic">停止播放背景音樂</string>
+    <string name="m1303_menu_message">選單範例程式</string>
+    <string name="m1303_menu_ok">確定</string>
+</resources>

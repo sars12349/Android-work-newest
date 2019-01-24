@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1103_b001">啟動 MyService</string>
+    <string name="m1103_b002">停止 MyService</string>
+    <string name="m1103_b003">連結 MyService</string>
+    <string name="m1103_b004">斷開 MyService</string>
+    <string name="m1103_b005">呼叫 MyService中的 myMethod()</string>
+</resources>

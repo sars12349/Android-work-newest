@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/top">
+
+    <TextView
+        android:id="@+id/m0505_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:text="@string/m0505_t001"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/m0505_a001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:text="@string/m0505_a001" />
+
+    <Button
+        android:id="@+id/m0505_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m0505_b001"
+        android:textColor="@color/Blue"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/m0505_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m0505_b002"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myname"
+        android:textAlignment="textEnd"
+        android:textColor="@color/Navy"
+        android:textSize="18sp" />
+</LinearLayout>

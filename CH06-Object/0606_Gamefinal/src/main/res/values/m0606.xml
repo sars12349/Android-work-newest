@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0606_t001">和電腦猜拳</string>
+    <string name="m0606_t002">電腦出拳</string>
+    <string name="m0606_t003">玩家出拳</string>
+    <string name="m0606_b001">剪刀</string>
+    <string name="m0606_b002">石頭</string>
+    <string name="m0606_b003">布</string>
+    <string name="m0606_s001">玩家選擇:</string>
+    <string name="m0606_f000">判定輸贏：</string>
+    <string name="m0606_f001">恭喜，你贏了！</string>
+    <string name="m0606_f002">很可惜，你輸了！</string>
+    <string name="m0606_f003">雙方平手！</string>
+    <string name="m0606_s002">電腦選擇:</string>
+</resources>

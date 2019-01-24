@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1108_b000">0</string>
+    <string name="m1108_b001">1</string>
+    <string name="m1108_b002">2</string>
+    <string name="m1108_b003">3</string>
+    <string name="m1108_b004">4</string>
+    <string name="m1108_b005">5</string>
+    <string name="m1108_b006">6</string>
+    <string name="m1108_b007">7</string>
+    <string name="m1108_b008">8</string>
+    <string name="m1108_b009">9</string>
+    <string name="m1108_b010">.</string>
+    <string name="m1108_b011">＋</string>
+    <string name="m1108_b012">-</string>
+    <string name="m1108_b013">×</string>
+    <string name="m1108_b014">÷</string>
+    <string name="m1108_b015">=</string>
+
+</resources>

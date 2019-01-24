@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="promptBtnOK">確定</string>
+    <string name="result">選擇:</string>
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="m_dd">日</string>
+    <string name="d_hh">時</string>
+    <string name="d_mm">分</string>
+    <string name="m0802_timer">88:88:88</string>
+    <string name="msg">fuck</string>
+    <string name="m0802_ans01">選擇:</string>
+    <string name="m0802_alerm">鬧鐘倒數計時</string>
+    <string name="m0802_play">鬧鐘播放</string>
+    <string name="m0802_b002">取消</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="m0504_t001">選擇結果:</string>
+    <string name="m0504_titem">群組選項</string>
+    <string name="m0504_tsubitem">子選項</string>
+    <string name="m0504_tdesc">群組說明</string>
+    <string name="m0504_tsubdesc">子選項說明</string>
+
+</resources>

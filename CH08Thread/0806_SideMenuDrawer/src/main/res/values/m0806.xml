@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="t002">測試側邊欄選單</string>
+    <string name="b001">左側邊攔</string>
+    <string name="b002">右側邊攔</string>
+    <string name="lt001">左側選單一</string>
+    <string name="lt002">左側選單二</string>
+    <string name="lt003">左側選單三</string>
+    <string name="lb001">左按鈕一</string>
+    <string name="rt001">右側選單一</string>
+    <string name="rt002">右側選單二</string>
+    <string name="rt003">右側選單三</string>
+    <string name="rb001">右按鈕一</string>
+</resources>

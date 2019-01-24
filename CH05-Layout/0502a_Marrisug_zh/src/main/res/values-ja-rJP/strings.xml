@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "m0502_t001">性別：</string>
+        <string name = "m0502_s001">性別の選択</string>
+        <string name = "m0502_b001">結婚提案</string>
+        <string name = "m0502_t003">結果：</string>
+        <string name = "m0502_f001">まだ若いので、心配する必要はありません。（男性）</string>
+        <string name = "m0502_f002">今回の最良の結婚式（男性）</string>
+        <string name = "m0502_f003">パートナー探しを急いで、すでに遅れています。（男性）</string>
+        <string name = "m0502_f004">まだ若いので心配する必要はありません（女性）</string>
+        <string name = "m0502_f005">今回の最高の結婚式（女性）</string>
+        <string name = "m0502_f006">パートナー探しを急いで、すでに遅れています（女性）</string>
+        <string name = "m0502_t002">年齢：</string>
+        <string name = "chk01">男性</string>
+        <string name = "m0502_f000">私はあなたに</string>
+        <string name = "m0502_r001a">男性</string>
+        <string name = "m0502_r001b">女性</string>
+        <string name = "m0502_r002aa"> 28歳未満</string>
+        <string name = "m0502_r002ab"> 28〜33歳</string>
+        <string name = "m0502_r002ac"> 33歳以上</string>
+        <string name = "m0502_r002ba"> 25歳未満</string>
+        <string name = "m0502_r002bb"> 25〜30歳</string>
+        <string name = "m0502_r002bc"> 30歳以上</string>
+        
+    </resources>

@@ -1,0 +1,1 @@
+include ':app', ':0700_LifeCycle', ':0701_ImageSwitcher', ':0703_HorizontalScrollView', ':0704_ListView_with_icons', ':0706_TextView_setup', ':0707_circle', ':0710_androidRdrawable', '0702_Animation', '0705_Game_Animation', '0708_ListView_circleImage', '0709_Android_SHAPE'

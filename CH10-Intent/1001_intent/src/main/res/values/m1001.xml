@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1001_b001">瀏覽網頁</string>
+    <string name="m1001_b004">撥電話</string>
+    <string name="m1001_b002">播放MP3</string>
+    <string name="m1001_b003">顯示圖片</string>
+    <string name="m1001_b005">傳簡訊</string>
+    <string name="m1001_b006">地址顯示</string>
+    <string name="m1001_b007">電子郵件</string>
+    <string name="m1001_b008">開啟聯絡人</string>
+    <string name="m1001_b009">開啟相機</string>
+    <string name="m1001_b010">開啟設定</string>
+</resources>

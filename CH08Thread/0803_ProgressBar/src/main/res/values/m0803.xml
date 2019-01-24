@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0803_t001">這是progressBarStyleHorizontal的型態：</string>
+    <string name="m0803_t002">這是內定的ProgressBar型態：</string>
+    <string name="m0803_t003">這是progressBarStyleLarge的型態：</string>
+    <string name="m0803_t004">這是progressBarStyleSmall的型態：</string>
+    <string name="m0803_b001">開始</string>
+</resources>

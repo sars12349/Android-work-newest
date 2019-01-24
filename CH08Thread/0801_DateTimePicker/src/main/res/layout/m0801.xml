@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lime"
+    android:padding="@dimen/fontsize"
+    tools:context=".M0801">
+
+    <TextView
+        android:id="@+id/m0801_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:text="@string/result"
+        android:textColor="@color/Red"
+        android:textSize="18sp" />
+
+    <DatePicker
+        android:id="@+id/m0801_date01"
+        style="@style/MyDatePicker"
+        android:layout_width="180dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/m0801_t001"
+        android:layout_alignStart="@+id/m0801_t001"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TimePicker
+        android:id="@+id/m0801_time01"
+        android:layout_width="267dp"
+        android:layout_height="158dp"
+        android:layout_below="@+id/m0801_date01"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="6dp"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/m0801_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0801_time01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/promptBtnOK"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0801_b001"
+        android:layout_alignEnd="@+id/m0801_b001"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/myname"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
