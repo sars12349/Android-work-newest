@@ -1,1 +1,1 @@
-include ':app', ':1507_GoogleLogin'
+include ':app', ':1507_GoogleLogin', ':1511_NavigationDrawer', ':1512_ButtonNavigation'

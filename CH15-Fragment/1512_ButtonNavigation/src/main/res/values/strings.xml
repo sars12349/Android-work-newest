@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">15.12 ButtonNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="item01">測試1</string>
+    <string name="item02">測試2</string>
+</resources>
