@@ -1,2 +1,2 @@
-include ':1402_SQLiteDataBase', ':1405_SQLiteDBHper_add', '1406_SQLiteDBHper_query', '1407_SQLite_DBHper_browse', '1407a_SQLiteDBHper_browsebatch'
+include ':1402_SQLiteDataBase', ':1405_SQLiteDBHper_add', '1406_SQLiteDBHper_query', '1407_SQLite_DBHper_browse', '1407a_SQLiteDBHper_browsebatch', '1408_SQLiteDBHper_clear', '1409_SQLiteDBHper_update'
 include  '1401_SharedPreferencesGame'
