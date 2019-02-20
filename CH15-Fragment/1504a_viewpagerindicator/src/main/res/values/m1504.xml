@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1505_descr">說明:</string>
+    <string name="t01">圖片1介紹</string>
+    <string name="t02">圖片2介紹</string>
+    <string name="t03">圖片3介紹</string>
+    <string name="t04">圖片4介紹</string>
+    <string name="t99">無圖片介紹</string>
+    <string name="action_settings">返回</string>
+</resources>

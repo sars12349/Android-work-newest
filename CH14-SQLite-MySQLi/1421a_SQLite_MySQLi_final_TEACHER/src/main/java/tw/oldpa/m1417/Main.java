@@ -1060,5 +1060,4 @@ public class Main extends AppCompatActivity implements View.OnClickListener, Ada
         return false;
     }
     // ----------- 結束-----------------
-
 }

@@ -1,1 +1,2 @@
-include ':app', ':1507_GoogleLogin', ':1511_NavigationDrawer', ':1512_ButtonNavigation'
+include ':app', ':1507_GoogleLogin', ':1511_NavigationDrawer', ':1512_ButtonNavigation', ':1501_Fragment_User', ':1502_Fragment_BMI', ':1503_Fragment_Basic', ':1504_ViewPagerIndicator', ':1505_Tabbed_Activity', ':1506_Snackbar_FAB', 'viewlibrary', '1504a_viewpagerindicator'
+include ':library'

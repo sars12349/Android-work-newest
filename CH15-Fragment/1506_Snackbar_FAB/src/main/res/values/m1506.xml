@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1506_b001">簡易Snackbar</string>
+    <string name="m1506_b002">Action Callback</string>
+    <string name="m1506_b003">自訂義顏色</string>
+    <string name="m1506_t001">顯示簡易Snackbar</string>
+    <string name="action_settings">結束</string>
+</resources>
