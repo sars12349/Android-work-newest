@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSnyMTQAIeclcmF-1y1ufEj3mzZb6sPx4" type="text/javascript"></script>
+    <script src="js/traveldata.js"></script>
+    <script language="javascript">
+		$(document).ready(function(){
+			$.ajax({
+				type:"GET",
+				url:"http://192.168.60.121/get_food_opendata.php",
+				dataType:"json",
+				success:showdata,
+				error:function(){
+					alert("系統錯誤!");
+				},
+			});
+
+			function showdata(data){
+				//parray=data[0].Coordinate.split(",");//將資料分離，用","隔開，格式為陣列，訂一個陣列來儲存
+
+
+				// 計算地球上兩點的距離
+				function getDistance(Lat1,Long1,Lat2,Long2){
+					ConvertDegreeToRadians=function(degrees){
+						return (Math.PI/180)*degrees;
+					}
+					var Lat1r=ConvertDegreeToRadians(Lat1);
+					var Lat2r=ConvertDegreeToRadians(Lat2);
+					var Long1r=ConvertDegreeToRadians(Long1);
+					var Long2r=ConvertDegreeToRadians(Long2);
+
+					var R=6371;//地球半徑(km)
+					var d=Math.acos(Math.sin(Lat1r)*Math.sin(Lat2r)+
+						Math.cos(Lat1r)*Math.cos(Lat2r)*Math.cos(Long2r-Long1r))*R;
+					return d;// 兩點的距離 (KM)
+				}
+
+				// 地圖實作
+				$(function(){
+					// 設定地圖中心點
+					var map_div=document.getElementById("map_div");
+					// 取得經緯度
+					var lat=24.170566;
+					var lng=120.609932;
+						var latlng=new google.maps.LatLng(lat,lng);
+					var gmap=new google.maps.Map(map_div,{
+						zoom:7,
+						center:latlng,
+						mapTypeId:google.maps.MapTypeId.ROADMAP
+
+					});
+
+					// 建立地標，使用google.maps.Marker() 建立地標物件
+					// var marker=new google.maps.Marker({
+					// 	position:latlng,
+					// 	icon:"image/1.png",
+					// 	map:gmap,
+					// 	title:" MY Company!!"
+					// });
+					// // 地標事件，以 google.maps.event.addListener()建立觸碰地標的事件
+					// google.maps.event.addListener(marker,"click",function(event){
+					// 	// google.maps.InfoWindow: 彈出的訊息視窗 infowindow.open(): 在google map 開啟訊息視窗
+					// 	var infowindow=new google.maps.InfoWindow({
+					// 		content:'<div class="info"><img src="http://www.ettvamerica.com/Images/JungleVoice/Video/Top.png" alt="" width="100%"><h4>聲林之王<h4><p>蕭敬騰、林宥嘉</p></div>'
+					// 	});
+					// 	infowindow.open(gmap,marker);
+					// });
+					var marker=[];
+					for(i=0;i<data.length;i++){
+						parray=data[i].Coordinate.split(",");
+
+						latlng=new google.maps.LatLng(parray[0],parray[1]);
+						marker[i]=new google.maps.Marker({
+							position:latlng,
+							icon:"image/1.png",
+							map:gmap,
+							title:" MY Company!!"
+						});
+						// 地標事件，以 google.maps.event.addListener()建立觸碰地標的事件
+						google.maps.event.addListener(marker[i],"click",function(event){
+							// google.maps.InfoWindow: 彈出的訊息視窗 infowindow.open(): 在google map 開啟訊息視窗
+							var lat=event.latLng.lat();
+							var lng=event.latLng.lng();
+
+							for(j=0;j<data.length;j++){
+								parray=data[j].Coordinate.split(",");
+								var disp=getDistance(lat,lng,parray[0],parray[1]);//單位: 公里
+								if(disp<0.001){
+									var infowindow=new google.maps.InfoWindow({
+										content:'<img src="'+data[j].PicURL+'" width="100%"><p style="color:purple; text-align:center;;">'+data[j].Name+'</p>'
+									});
+									infowindow.open(gmap,marker[j]);
+								}//if
+
+							}//for
+
+						});
+					}
+
+				});
+			}
+		});
+	</script>
+    <style>
+		#map_div{
+			width: 300px;
+			height: 600px;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right: auto;
+			box-shadow: 2px 2px 2px 3px #ccc
+			/*background-color: white;*/
+		}
+		.info{
+			color:orange;
+		}
+
+	</style>
+</head>
+<body>
+<div data-role="page" id="home" style="background-color:gray;">
+    <div data-role="header">
+
+    </div>
+    <div data="main" class="ui-content">
+        <div class="map_div" id="map_div"></div>
+    </div>
+
+</div>
+</body>
+</html>
