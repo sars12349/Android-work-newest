@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1801_t001">測試自建JAR</string>
+    <string name="m1801_t002">執行前</string>
+    <string name="m1801_b001">執行測試</string>
+    <string name="m1801_t003">取得訊息:</string>
+    <string name="m1801_t004">輸入轉換值:</string>
+    <string name="hint">輸入</string>
+    <string name="zero">0</string>
+    <string name="action_settings">結束</string>
+</resources>

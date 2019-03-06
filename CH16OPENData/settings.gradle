@@ -1,1 +1,1 @@
-include  ':1601_OpenData', ':1602_OpenData_JSON', ':1603_OPEN_Data_GoldPrice', ':1604_Runtime_Permissions', ':1605_dangerous_permission'
+include ':1601_OpenData', ':1602_OpenData_JSON', ':1603_OPEN_Data_GoldPrice', ':1604_Runtime_Permissions', ':1605_dangerous_permission', ':1606_circle_image_homework', 'tcnrlibrary'

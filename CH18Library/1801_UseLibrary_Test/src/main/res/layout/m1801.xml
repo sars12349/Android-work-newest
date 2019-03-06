@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".M1801">
+
+    <TextView
+        android:id="@+id/m1801_t001"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:gravity="center"
+        android:text="@string/m1801_t001"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:text="@string/m1801_t003"
+        android:layout_alignBaseline="@+id/m1801_t002"
+        android:layout_alignBottom="@+id/m1801_t002"
+        android:layout_toStartOf="@+id/m1801_t002"/>
+
+    <TextView
+        android:id="@+id/m1801_t002"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/m1801_t001"
+        android:layout_below="@+id/m1801_t001"
+        android:layout_marginTop="22dp"
+        android:background="@android:drawable/editbox_background"
+        android:text="@string/m1801_t002"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1801_t002"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:text="@string/m1801_t004"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/m1801_b001"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1801_ans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@android:drawable/btn_default_small"
+        android:text="@string/m1801_b001"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/m1801_e001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignStart="@+id/m1801_t002"
+        android:layout_alignEnd="@+id/m1801_t002"
+        android:layout_alignBottom="@+id/textView2"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/hint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/m1801_ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1801_e001"
+        android:layout_alignEnd="@+id/m1801_e001"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@android:drawable/editbox_background" />
+
+    <tw.tcnr21.tcnrlibrary.CircleImgview
+        android:id="@+id/circleImgview"
+        android:layout_width="143dp"
+        android:layout_height="152dp"
+        android:layout_below="@+id/m1801_b001"
+        android:layout_alignStart="@+id/m1801_b001"
+        android:layout_marginStart="-111dp"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/t1" />
+
+    <tw.tcnr21.tcnrlibrary.CircleImgbutton
+        android:id="@+id/circleImgbutton"
+        android:layout_width="143dp"
+        android:layout_height="193dp"
+        android:layout_below="@+id/m1801_b001"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/circleImgview"
+        android:background="#00000000"
+        app:srcCompat="@drawable/t1" />
+
+
+</RelativeLayout>
